@@ -1,17 +1,21 @@
 import java.util.Scanner;
+public class IT24102070Lab4Q3 {
 
-public class  IT24102070Lab4Q3 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+       public static void main(String[] args) {
+ 
+       Scanner input = new Scanner(System.in);
+       
+       int number;
 
-        System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+       System.out.print("Enter a number : ");
+       number = input.nextInt();
 
-        String result = (number > 0) ? "The number is Positive."
-                    : (number < 0) ? "The number is Negative."
-                    : "The number is Zero.";
+       String output;
 
-        System.out.println(result);
+       output = (number > 0) ? "The number is: Positive" : (number < 0) ? "The number is: Negative" : "The number is Zero";
 
-    }
-}
+       System.out.println(output);
+
+     }
+
+ }
